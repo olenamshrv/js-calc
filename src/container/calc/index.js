@@ -19,7 +19,6 @@ class Calc {
 
   static #output = () => {
     this.#save()
-    console.log(window.output)
     window.output.innerHTML = this.#value
   }
 
